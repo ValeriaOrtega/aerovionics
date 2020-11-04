@@ -27,10 +27,10 @@ header{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     body{
-        background-image: url(../aerovionics/Usuarios.png);
+        background-image: url(../aerovionics/gerente.png);
+        background-size: 45%;
     background-repeat: no-repeat;
     position: absolute;
- 
     background-position-x: center;
         padding: 0;
         background-position: absolute;

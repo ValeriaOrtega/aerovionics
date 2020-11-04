@@ -28,9 +28,8 @@ text-decoration: none;
 }
 body{
     background-image: url(../aerovionics/sistem.png);
-  
+    background-position-x: center;
     padding: 0;
-    background-position: absolute;
     width: 100%;
     margin: 0;
 }
