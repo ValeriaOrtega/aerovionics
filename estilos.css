@@ -23,23 +23,27 @@ margin-top: -1.5em;
 margin-left: 8em;
 font-size: 20px;
 color: black;
-text-shadow: 2px 2px 3px red;
+text-shadow: 2px 2px 3px green;
 text-decoration: none;
 }
 body{
-    background-image: url(../aerovionics/sistem.png);
+    background-image: url(../aerovionics/sistema.png);
     background-position-x: center;
     padding: 0;
     width: 100%;
+    text-align: left;
+    background-position: center;
     margin: 0;
 }
 .p>p{
+    text-align: left;
     margin-top: 5em;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 1em;
-    text-shadow: 2px 2px 3px white;
-    text-decoration-line: none;
+    left: 2em;
+    color: black;
+    text-shadow: 2px 2px 3px white(1, 1, 32);
     LINE-HEIGHT:35px;
     text-align: center;
 }
