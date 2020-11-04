@@ -1,12 +1,13 @@
 header{
-background-color: dodgerblue;
-padding: 0%;
-margin: 0%;
+background-color: rgba(34, 127, 219, 0.534);
+padding: 0;
+margin: 1em;
 }
 div>h1{
 text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 50px;
+text-shadow: 2px 2px 3px white;
 margin-top: 0.5em;
 }
 .redes>a>img{
@@ -14,6 +15,7 @@ margin-top: 0.5em;
     position:absolute;
     margin-left: 68em;
     margin-top: -2.5em;
+    text-shadow: 2px 2px 3px rgb(26, 228, 161)(206, 152, 152);
 }
 .menu>a{
 position:absolute;
@@ -21,12 +23,24 @@ margin-top: -1.5em;
 margin-left: 8em;
 font-size: 20px;
 color: black;
+text-shadow: 2px 2px 3px red;
 text-decoration: none;
 }
+body{
+    background-image: url(../aerovionics/sistem.png);
+  
+    padding: 0;
+    background-position: absolute;
+    width: 100%;
+    margin: 0;
+}
 .p>p{
-    margin-top: 2em;
+    margin-top: 5em;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 1em;
+    text-shadow: 2px 2px 3px white;
     text-decoration-line: none;
+    LINE-HEIGHT:35px;
+    text-align: center;
 }
