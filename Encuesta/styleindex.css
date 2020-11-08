@@ -1,0 +1,76 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+  color:gray;
+}
+ #navtitulo{
+list-style: none;
+margin: 0em; 
+border: 0em;
+padding-top: 1em;
+padding:auto;
+overflow: hidden;
+background-color: #000;
+color: white;
+text-align: center;
+ font-size: 2.5em;
+ height: 4em;
+
+} 
+
+
+#navindice ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    z-index: 100;
+}
+
+#navindice li{
+    float: left;
+}
+
+#navindice li a{
+    padding: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    color: whitesmoke;
+  width: 1.5;
+
+}
+#navindice li a:hover{
+        color: gray;
+        background-color: white;
+        text-align: center;
+        
+}
+#navbaro{
+border: white 4px groove;
+text-align: center;
+font-size: 1.5em;
+}
+
+#navbarseparadores{
+  font-size: 1.25em;
+text-align: center;
+}
+#navbartexto{
+  text-align: center;
+}
+label{
+  font-size: 1.5em;
+  margin-left: 2em;
+}
+#botones{
+  text-align: center;
+ 
+}
+
+
+
+

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="styleindex.css">
+    <title>Formulario</title> 
+<body>
+    <form action="phpArchivo.php" method="POST">
+        <nav id="navtitulo">
+           <p >CUESTIONARIO PARA IDENTIFICAR LOS FATORES DE RIESGO PSICOSOCIAL EN LOS CENTROS DE TRABAJO</p>              
+            </nav>
+                <nav id="navindice">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="factores.html">Acerca de </a></li>
+                     <!--<li><a href="pagina3.html">Pagina 3</a></li>
+                    <li><a href="pagina4.html">Pagina 4</a></li> -->
+                </ul>
+                <!-- <script src="https://kit.fontawesome.com/1cf5d074fd.js" crossorigin="anonymous"></script>
+                <div class="myicono"><i class="fa fa-bars" aria-hidden="true"></i></div> -->
+            </nav>
+            <nav id="navbarseparadores">
+            <p id="pdos">Para responder las preguntas siguientes considere las condiciones de su centro de trabajo, así como la cantidad y ritmo de trabajo.</p>
+            </nav>
+            <nav id="navbartexto">
+        <input type="text" name="nombre" placeholder="Nombre completo">
+        <input type="text" name="puesto" placeholder="Puesto de trabajo">
+        <input type="text" name="fecha" placeholder="Fecha">
+        <input type="number" name="numerodeempleado" placeholder="Numero de empleado">
+        <br><br> </nav>
+        <label for="o1">1.-Mi trabajo me exige hacer mucho esfuerzo físico: </label>
+        <nav id=navbaro><br>
+        <input type="radio" name="o1" id="o1" value=" Siempre"checked> Siempre
+        <input type="radio" name="o1" id="o1" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o1" id="o1" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o1" id="o1" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o1" id="o1" value=" Nunca"> Nunca  
+        <br><br></nav>
+        <label for="o2">2.-Me preocupa sufrir un accidente en mi trabajo: </label> 
+        <nav id=navbaro><br>            
+        <input type="radio" name="o2" id="o2" value=" Siempre"checked> Siempre
+        <input type="radio" name="o2" id="o2" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o2" id="o2" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o2" id="o2" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o2" id="o2" value=" Nunca"> Nunca
+        <br><br> </nav>
+        <label for="o3">3.-Considero que las actividades que realizo son peligrosas: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o3" id="o3" value=" Siempre"checked> Siempre
+        <input type="radio" name="o3" id="o3" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o3" id="o3" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o3" id="o3" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o3" id="o3" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o4">4.-Por la cantidad de trabajo que tengo debo quedarme tiempo adicional a mi turno: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o4" id="o4" value=" Siempre"checked> Siempre
+        <input type="radio" name="o4" id="o4" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o4" id="o4" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o4" id="o4" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o4" id="o4" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o5">5.-Por la cantidad de trabajo que tengo debo trabajar sin parar: </label>
+        <nav id=navbaro><br>
+        <input type="radio" name="o5" id="o5" value=" Siempre"checked> Siempre
+        <input type="radio" name="o5" id="o5" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o5" id="o5" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o5" id="o5" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o5" id="o5" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o6">6.-Considero que es necesario mantener un ritmo de trabajo acelerado: </label>
+        <nav id=navbaro><br>
+        <input type="radio" name="o6" id="o6" value=" Siempre"checked> Siempre
+        <input type="radio" name="o6" id="o6" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o6" id="o6" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o6" id="o6" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o6" id="o6" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o7">7.-Mi trabajo exige que esté muy concentrado: </label>
+        <nav id=navbaro><br>
+        <input type="radio" name="o7" id="o7" value=" Siempre"checked> Siempre
+        <input type="radio" name="o7" id="o7" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o7" id="o7" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o7" id="o7" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o7" id="o7" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o8">8.-Mi trabajo requiere que memorice mucha información: </label>
+        <nav id=navbaro><br>
+        <input type="radio" name="o8" id="o8" value=" Siempre"checked> Siempre
+        <input type="radio" name="o8" id="o8" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o8" id="o8" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o8" id="o8" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o8" id="o8" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o9">9.-Mi trabajo exige que atienda varios asuntos al mismo tiempo: </label>
+        <nav id=navbaro><br>
+        <input type="radio" name="o9" id="o9" value=" Siempre"checked> Siempre
+        <input type="radio" name="o9" id="o9" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o9" id="o9" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o9" id="o9" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o9" id="o9" value=" Nunca"> Nunca
+        <br><br></nav>
+        <nav id="navbarseparadores"><br>
+            Para responder las preguntas siguientes considere las condiciones de su centro de trabajo, así como la cantidad y ritmo de trabajo.
+        </nav>
+        <br><br>
+        <label for="o10">10.-En mi trabajo soy responsable de cosas de mucho valor: </label>
+        <nav id=navbaro><br>
+        <input type="radio" name="o10" id="o10" value=" Siempre"checked>  Siempre
+        <input type="radio" name="o10" id="o10" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o10" id="o10" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o10" id="o10" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o10" id="o10" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o11">11.-Respondo ante mi jefe por los resultados de toda mi área de trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o11" id="o11" value=" Siempre"checked> Siempre
+        <input type="radio" name="o11" id="o11" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o11" id="o11" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o11" id="o11" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o11" id="o11" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o12">12.-En mi trabajo me dan órdenes contradictorias: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o12" id="o12" value=" Siempre"checked> Siempre
+        <input type="radio" name="o12" id="o12" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o12" id="o12" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o12" id="o12" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o12" id="o12" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o13">13.-Considero que en mi trabajo me piden hacer cosas inecesarias: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o13" id="o13" value=" Siempre"checked> Siempre
+        <input type="radio" name="o13" id="o13" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o13" id="o13" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o13" id="o13" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o13" id="o13" value=" Nunca"> Nunca
+        <br><br></nav>
+        <nav id="navbarseparadores"><br>
+                Las preguntas siguientes están relacionadas con el tiempo destinado a su trabajo y sus responsabilidades familiares.
+        </nav>
+        <br><br>
+        <label for="o14">14.-Trabajo horas extras mas de tres veces a la semana: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o14" id="o14" value=" Siempre"checked> Siempre
+        <input type="radio" name="o14" id="o14" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o14" id="o14" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o14" id="o14" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o14" id="o14" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o15">15.-Mi trabajo me exige laborar en dias de descanso, festivos o fines de semana: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o15" id="o15" value=" Siempre"checked> Siempre
+        <input type="radio" name="o15" id="o15" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o15" id="o15" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o15" id="o15" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o15" id="o15" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o16">16.-Considero que el tiempo en el trabajo es mucho y perjudica mis actividades familiares o personales: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o16" id="o16" value=" Siempre"checked> Siempre
+        <input type="radio" name="o16" id="o16" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o16" id="o16" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o16" id="o16" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o16" id="o16" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o17">17.-Pienso en las actividades familiares o personales cuando estoy en mi trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o17" id="o17" value=" Siempre"checked> Siempre
+        <input type="radio" name="o17" id="o17" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o17" id="o17" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o17" id="o17" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o17" id="o17" value=" Nunca"> Nunca
+        <br><br></nav>
+        <nav id="navbarseparadores"><br>
+                Las preguntas siguientes están relacionadas con las decisiones que puede tomar en su trabajo.
+        </nav>
+        <br><br>
+        <label for="o18">18.-Mi trabajo permite que desarrolle nuevas habilidades: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o18" id="o18" value=" Siempre"checked> Siempre
+        <input type="radio" name="o18" id="o18" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o18" id="o18" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o18" id="o18" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o18" id="o18" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o19">19.-En mi trabajo puedo aspirar a un mejor puesto: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o19" id="o19" value=" Siempre"checked> Siempre
+        <input type="radio" name="o19" id="o19" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o19" id="o19" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o19" id="o19" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o19" id="o19" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o20">20.-Durante mi jornada de trabajo puedo tomar pausas cuando las necesito: </label>
+        <nav id=navbaro><br> 
+        <input type="radio" name="o20" id="o20" value=" Siempre"checked> Siempre
+        <input type="radio" name="o20" id="o20" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o20" id="o20" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o20" id="o20" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o20" id="o20" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o21">21.-Puedo decidir la velocidad a la que realizo mis actividades en mi trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o21" id="o21" value=" Siempre"checked> Siempre
+        <input type="radio" name="o21" id="o21" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o21" id="o21" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o21" id="o21" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o21" id="o21" value=" Nunca"> Nunca
+        <br><br></nav>      
+        <nav id="navbarseparadores"><br>
+            Las preguntas siguientes están relacionadas con la capacitación e información que recibe sobre su trabajo.
+        </nav>  
+              <br><br>
+        <label for="o22">22.-Puedo cambiar el orden de las actividades que realizo en mi trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o22" id="o22" value=" Siempre"checked> Siempre
+        <input type="radio" name="o22" id="o22" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o22" id="o22" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o22" id="o22" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o22" id="o22" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o23">23.-Me informan con claridad cuales son mis funciones: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o23" id="o23" value=" Siempre"checked> Siempre
+        <input type="radio" name="o23" id="o23" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o23" id="o23" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o23" id="o23" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o23" id="o23" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o24">24.-Me explican claramente los resultados que debo obtener en mi trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o24" id="o24" value=" Siempre"checked> Siempre
+        <input type="radio" name="o24" id="o24" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o24" id="o24" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o24" id="o24" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o24" id="o24" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o25">25.-Me informan con quien puedo resolver problemas o asuntos de trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o25" id="o25" value=" Siempre"checked> Siempre
+        <input type="radio" name="o25" id="o25" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o25" id="o25" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o25" id="o25" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o25" id="o25" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o26">26.-Me permiten asistir a capacitaciones relacionadas con mi trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o26" id="o26" value=" Siempre"checked> Siempre
+        <input type="radio" name="o26" id="o26" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o26" id="o26" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o26" id="o26" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o26" id="o26" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o27">27.-Recibo capacitacion util para hacer mi trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o27" id="o27" value=" Siempre"checked> Siempre
+        <input type="radio" name="o27" id="o27" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o27" id="o27" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o27" id="o27" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o27" id="o27" value=" Nunca"> Nunca
+        <br><br></nav>
+        <nav id="navbarseparadores"><br>
+                Las preguntas siguientes se refieren a las relaciones con sus compañeros de trabajo y su jefe.
+        </nav>
+        <br><br>
+        <label for="o28">28.-Mi jefe tiene en cuentas mis puntos de vista y opiniones: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o28" id="o28" value=" Siempre"checked> Siempre
+        <input type="radio" name="o28" id="o28" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o28" id="o28" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o28" id="o28" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o28" id="o28" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o29">29.-Mi jefe me ayuda a solucionar los problemas que se presentan en el trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o29" id="o29" value=" Siempre"checked> Siempre
+        <input type="radio" name="o29" id="o29" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o29" id="o29" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o29" id="o29" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o29" id="o29" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o30">30.-Puedo confiar en mis compañeros de trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o30" id="o30" value=" Siempre"checked> Siempre
+        <input type="radio" name="o30" id="o30" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o30" id="o30" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o30" id="o30" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o30" id="o30" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o31">31.-Cuando tenemos que realizar trabajo de equipos los compañeros colaboran: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o31" id="o31" value=" Siempre"checked> Siempre
+        <input type="radio" name="o31" id="o31" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o31" id="o31" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o31" id="o31" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o31" id="o31" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o32">32.-Mis compañeros de trabajo me ayudan cuando tengo dificultades: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o32" id="o14" value=" Siempre"checked> Siempre
+        <input type="radio" name="o32" id="o14" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o32" id="o14" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o32" id="o14" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o32" id="o14" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o33">33.-En mi trabajo puedo expresarme libremente sin interrupciones: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o33" id="o33" value=" Siempre"checked> Siempre
+        <input type="radio" name="o33" id="o33" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o33" id="o33" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o33" id="o33" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o33" id="o33" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o34">34.-Recibo criticas constantes a mi persona y/o trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o34" id="o34" value=" Siempre"checked> Siempre
+        <input type="radio" name="o34" id="o34" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o34" id="o34" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o34" id="o34" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o34" id="o34" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o35">35.-Recibo burlas, calumnias, difamaciones, humillaciones o ridiculizaciones: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o35" id="o35" value=" Siempre"checked> Siempre
+        <input type="radio" name="o35" id="o35" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o35" id="o35" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o35" id="o35" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o35" id="o35" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o36">36.-Se ignora mis presencia o se me excluye de las reuniones de trabajo y en la toma de decisiones: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o36" id="o36" value=" Siempre"checked> Siempre
+        <input type="radio" name="o36" id="o36" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o36" id="o36" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o36" id="o36" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o36" id="o36" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o37">37.-Se manipulan las situaciones de trabajo para hacerme parecer un mal trabajador: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o37" id="o37" value=" Siempre"checked> Siempre
+        <input type="radio" name="o37" id="o37" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o37" id="o37" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o37" id="o37" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o37" id="o37" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o38">38.-Se ignoran mis exitos laborales y se atribuyen a otros trabajadores: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o38" id="o38" value=" Siempre"checked> Siempre
+        <input type="radio" name="o38" id="o38" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o38" id="o38" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o38" id="o38" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o38" id="o38" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o39">39.-Me bloquean o impiden las oportunidades que tengo para obtener ascenso o mejora en mi trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o39" id="o39" value=" Siempre"checked> Siempre
+        <input type="radio" name="o39" id="o39" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o39" id="o39" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o39" id="o39" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o39" id="o39" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o40">40.-He presenciado actos de violencia en mi centro de trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o40" id="o40" value=" Siempre"checked> Siempre
+        <input type="radio" name="o40" id="o40" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o40" id="o40" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o40" id="o40" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o40" id="o40" value=" Nunca"> Nunca
+        <br><br></nav>
+        <nav id="navbarseparadores"><br>
+            Las preguntas siguientes están relacionadas con la atención a clientes y usuarios.
+        </nav>
+        <br><br>
+        <label for="o41">41.-Atiendo clientes o usuarios muy enojados: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o41" id="o41" value=" Siempre"checked> Siempre
+        <input type="radio" name="o41" id="o41" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o41" id="o41" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o41" id="o41" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o41" id="o41" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o42">42.-Mi trabajo me exiige atender personas muy necesitadas de ayuda o enfermas: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o42" id="o42" value=" Siempre"checked> Siempre
+        <input type="radio" name="o42" id="o42" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o42" id="o42" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o42" id="o42" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o42" id="o42" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o43">43.-Para hacer mi trabajo debo demostrar sentimientos distintos a los mios: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o43" id="o43" value=" Siempre"checked> Siempre
+        <input type="radio" name="o43" id="o43" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o43" id="o43" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o43" id="o43" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o43" id="o43" value=" Nunca"> Nunca
+        <br><br></nav>
+        <nav id="navbarseparadores"><br>
+        Las siguientes preguntas están relacionadas con las actitudes de los trabajadores que supervisa.
+        </nav>
+        <br><br> 
+        <label for="o44">44.-Comunican tarde los asuntos de trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o44" id="o44" value=" Siempre"checked> Siempre
+        <input type="radio" name="o44" id="o44" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o44" id="o44" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o44" id="o44" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o44" id="o44" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o45">45.-Dificultan el logro de los resultados del trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o45" id="o45" value=" Siempre"checked> Siempre
+        <input type="radio" name="o45" id="o45" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o45" id="o45" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o45" id="o45" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o45" id="o45" value=" Nunca"> Nunca
+        <br><br></nav>
+        <label for="o46">46.-Ignoran las sugerencias para mejorar su trabajo: </label>
+        <nav id=navbaro> <br>
+        <input type="radio" name="o46" id="o46" value=" Siempre"checked> Siempre
+        <input type="radio" name="o46" id="o46" value=" Casi  Siempre"> Casi  Siempre
+        <input type="radio" name="o46" id="o46" value=" Algunas veces"> Algunas veces
+        <input type="radio" name="o46" id="o46" value=" Casi nunca"> Casi nunca
+        <input type="radio" name="o46" id="o46" value=" Nunca"> Nunca
+        <br><br> 
+        </nav>
+   <nav id="botones">
+        <input type="submit" value="Enviar" id="enviar" > 
+        <input type="reset" value="Restaurar formulario">
+        <style> 
+            input[type=button], input[type=submit], input[type=reset] {
+              background-color: #79b9f5;
+              border: none;
+              color: whitesmoke;
+              padding: 16px 32px;
+              text-decoration: none;
+              margin: 4px 2px;
+              text-align: center;
+              cursor: pointer;
+            }
+            </style>
+    </nav>
+
+  
+
+</body>
+
+</html>

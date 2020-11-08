@@ -1,0 +1,72 @@
+
+
+body{
+    background-color: rgb(0, 0, 0);
+  color:white;
+}
+ #navtitulo{
+list-style: none;
+margin: 0em; 
+border: 0em;
+padding:1em;
+overflow: hidden;
+background-color: #000;
+color: white;
+text-align: center;
+ font-size: 3em;
+ height: 4em;
+
+} 
+
+
+#navindice ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    z-index: 100;
+}
+
+#navindice li{
+    float: left;
+}
+
+#navindice li a{
+    padding: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    color: whitesmoke;
+  width: 1.5;
+
+}
+#navindice li a:hover{
+        color: gray;
+        background-color: white;
+        text-align: center;
+        
+}
+
+#navbarseparadores{
+    font-size: 1.50em;
+  text-align: center;
+}
+#navtexto{ 
+   padding-bottom: 3em;
+   padding-left: 3em;
+   padding-top: 2em;
+   padding-right: 3em;
+   font-size: 1.25em;
+
+   text-align: left;
+}
+
+#Linormas {
+  font-size: 0.5em;
+  text-decoration: none;
+  margin-left: 1em;
+  text-align: left;
+  list-style-position: outside;
+}
